@@ -1,0 +1,30 @@
+jtex: v1
+kind: typst
+title: 'simple-typst'
+description: 'A simple `typst` template for MystMD'
+version: 1.0.0
+license: MIT
+source: 'https://github.com/jonmatthis/plain_typst'
+authors:
+  - name: 'Jon Matthis'
+    website: 'https://freemocap.org'
+    affiliations:
+      - 'FreeMoCap Foundation'
+tags:
+  - paper
+parts:
+  - id: abstract
+    description: >
+      A good abstract will begin with a short description of the problem being
+      addressed, briefly describe the new data or analyses, then briefly states
+      the main conclusion(s) and how they are supported and uncertainties.
+doc:
+  - id: title
+  - id: bibliography
+options:
+  - type: boolean
+    id: draft
+    description: Mark the document as draft
+files:
+  - template.typ
+
